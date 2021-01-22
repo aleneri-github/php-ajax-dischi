@@ -21,17 +21,14 @@
     </header>
 
     <main>
-      <div class="disc-box">
-        <div class="cover">
+      <?php foreach ($dischi as $disco) { ?>
+        <div class="disc-box">
+          <div class="cover"></div>
+          <h2><?php echo $disco["title"] ?></h2>
+          <h3><?php echo $disco["author"] ?></h3>
+          <h4><?php echo $disco["year"] ?></h4>
         </div>
-        <h2>Titolo Album</h2>
-        <h3>Artista</h3>
-        <h4>Anno</h4>
-      </div>
-      
-
-
-
+      <?php } ?>
     </main>
 
   </body>
