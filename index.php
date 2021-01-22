@@ -23,7 +23,7 @@
     <main>
       <?php foreach ($dischi as $disco) { ?>
         <div class="disc-box">
-          <div class="cover"></div>
+          <img src="<?php echo $disco["poster"] ?>" alt="">
           <h2><?php echo $disco["title"] ?></h2>
           <h3><?php echo $disco["author"] ?></h3>
           <h4><?php echo $disco["year"] ?></h4>

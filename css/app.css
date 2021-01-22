@@ -33,27 +33,29 @@ main {
   margin: 10px;
   padding: 10px;
   text-align: center;
-  background-color: red;
+  background-color: #272727;
 }
 .disc-box h2 {
   font-family: "Noto Sans SC", sans-serif;
   padding-top: 5px;
   font-size: 18px;
+  color: #FFFFFF;
 }
 .disc-box h3 {
   font-family: "Roboto", sans-serif;
   padding-top: 5px;
   font-size: 16px;
+  color: #FFFFFF;
 }
 .disc-box h4 {
   font-family: "Yusei Magic", sans-serif;
   padding-top: 5px;
   font-size: 14px;
+  color: #808080;
 }
-.disc-box .cover {
+.disc-box img {
   margin: 0 auto;
   height: 60%;
   width: 95%;
   padding-top: 10px;
-  background-color: dodgerblue;
 }
