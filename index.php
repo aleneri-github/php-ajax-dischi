@@ -11,8 +11,22 @@
   <body>
     <header>
       <i class="fab fa-spotify"></i>
-
     </header>
+
+    <main>
+      <div class="disc-box"></div>
+      <div class="disc-box"></div>
+      <div class="disc-box"></div>
+      <div class="disc-box"></div>
+      <div class="disc-box"></div>
+      <div class="disc-box"></div>
+      <div class="disc-box"></div>
+      <div class="disc-box"></div>
+      <div class="disc-box"></div>
+      <div class="disc-box"></div>
+
+
+    </main>
 
   </body>
 </html>

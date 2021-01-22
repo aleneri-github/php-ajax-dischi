@@ -1,3 +1,19 @@
 body {
   background-color: $backgroundColor;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.disc-box {
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+}
