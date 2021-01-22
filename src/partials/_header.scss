@@ -1,9 +1,10 @@
 header {
-  height: 80px;
+  height: 12vh;
   width: 100%;
+  padding: 15px;
   background-color: $backgroundColorHead;
-}
-
-i {
-  color: yellow;
+  i {
+    font-size: 50px;
+    color: $spotifyColorIcon;
+  }
 }
