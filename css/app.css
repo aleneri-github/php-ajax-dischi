@@ -38,14 +38,17 @@ main {
 .disc-box h2 {
   font-family: "Noto Sans SC", sans-serif;
   padding-top: 5px;
+  font-size: 18px;
 }
 .disc-box h3 {
   font-family: "Roboto", sans-serif;
   padding-top: 5px;
+  font-size: 16px;
 }
 .disc-box h4 {
   font-family: "Yusei Magic", sans-serif;
   padding-top: 5px;
+  font-size: 14px;
 }
 .disc-box .cover {
   margin: 0 auto;
