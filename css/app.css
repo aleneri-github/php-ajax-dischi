@@ -35,7 +35,8 @@ main {
   padding: 10px;
   text-align: center;
   cursor: pointer;
-  background-color: #272727;
+  background-color: #171717;
+  border-radius: 2%;
 }
 .disc-box h2 {
   font-family: "Noto Sans SC", sans-serif;
@@ -69,6 +70,7 @@ main {
   height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2%;
 }
 .disc-box .layover i {
   position: absolute;
@@ -76,7 +78,10 @@ main {
   right: 10%;
   font-size: 45px;
   color: #1DD05D;
-  text-shadow: 1px 1px grey;
+  text-shadow: 1px 1px lightgrey;
+}
+.disc-box .layover i:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .disc-box:hover .layover {
