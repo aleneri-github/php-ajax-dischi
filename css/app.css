@@ -28,11 +28,13 @@ main {
 }
 
 .disc-box {
+  position: relative;
   height: 300px;
   width: 200px;
   margin: 10px;
   padding: 10px;
   text-align: center;
+  cursor: pointer;
   background-color: #272727;
 }
 .disc-box h2 {
@@ -58,4 +60,25 @@ main {
   height: 60%;
   width: 95%;
   padding-top: 10px;
+}
+.disc-box .layover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.disc-box .layover i {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  font-size: 45px;
+  color: #1DD05D;
+  text-shadow: 1px 1px grey;
+}
+
+.disc-box:hover .layover {
+  display: block;
 }

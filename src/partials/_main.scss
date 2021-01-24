@@ -11,11 +11,13 @@ main {
 }
 
 .disc-box {
+  position: relative;
   height: 300px;
   width: 200px;
   margin: 10px;
   padding: 10px;
   text-align: center;
+  cursor: pointer;
   background-color: $discBoxColor;
     h2 {
       font-family: 'Noto Sans SC', sans-serif;
@@ -41,4 +43,24 @@ main {
       width: 95%;
       padding-top: 10px;
     }
+    .layover {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: $layoverColor;
+        i {
+          position: absolute;
+          top: 40%;
+          right: 10%;
+          font-size: 45px;
+          color: $spotifyColorIcon;
+          text-shadow: 1px 1px grey;
+        }
+    }
+}
+.disc-box:hover .layover {
+  display: block;
 }
