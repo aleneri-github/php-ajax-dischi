@@ -19,7 +19,7 @@ main {
   text-align: center;
   cursor: pointer;
   background-color: $discBoxColor;
-  border-radius: 2%;
+  border-radius: 2%;  
     h2 {
       font-family: 'Noto Sans SC', sans-serif;
       padding-top: 5px;
@@ -44,7 +44,7 @@ main {
       width: 95%;
       padding-top: 10px;
     }
-    .layover {
+    .overlay {
       display: none;
       position: absolute;
       top: 0;
@@ -66,6 +66,6 @@ main {
         }
     }
 }
-.disc-box:hover .layover {
+.disc-box:hover .overlay {
   display: block;
 }
