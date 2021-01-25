@@ -4,9 +4,7 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <!-- CDN Vue.js -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+  <head>    
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&family=Roboto&family=Yusei+Magic&display=swap" rel="stylesheet">
@@ -18,23 +16,21 @@
     <title>Dischi</title>
   </head>
   <body>
-    <div id="root">
-      <header>
-        <i class="fab fa-spotify"></i>
-      </header>
-      <main>
-        <?php foreach ($dischi as $disco) { ?>
-          <div class="disc-box">
-            <img src="<?php echo $disco["poster"] ?>" alt="">
-            <h2><?php echo $disco["title"] ?></h2>
-            <h3><?php echo $disco["author"] ?></h3>
-            <h4><?php echo $disco["year"] ?></h4>
-            <div class="overlay">
-              <i class="far fa-play-circle"></i>
-            </div>
+    <header>
+      <i class="fab fa-spotify"></i>
+    </header>
+    <main>
+      <?php foreach ($dischi as $disco) { ?>
+        <div class="disc-box">
+          <img src="<?php echo $disco["poster"] ?>" alt="">
+          <h2><?php echo $disco["title"] ?></h2>
+          <h3><?php echo $disco["author"] ?></h3>
+          <h4><?php echo $disco["year"] ?></h4>
+          <div class="overlay">
+            <i class="far fa-play-circle"></i>
           </div>
-        <?php } ?>
-      </main>      
-    </div>
+        </div>
+      <?php } ?>
+    </main>
   </body>
 </html>
