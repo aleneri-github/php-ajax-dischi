@@ -21,7 +21,15 @@
         <i class="fab fa-spotify"></i>
       </header>
       <main>
-
+        <div class="disc-box" v-for="disc in discs">
+          <img :src="disc.poster" :alt="disc.title">
+          <h2>{{ disc.title }}</h2>
+          <h3>{{ disc.author }}</h3>
+          <h4>{{ disc.year }}</h4>
+          <div class="overlay">
+            <i class="far fa-play-circle"></i>
+          </div>
+        </div>
       </main>
     </div>
     <script src="js/app.js" charset="utf-8"></script>
