@@ -1,14 +1,16 @@
 import Vue from 'vue';
 const axios = require('axios').default;
 
-var app = new Vue(
+var root = new Vue(
   {
-    el: "#app",
+    el: '#root',
     data: {
-
+      discs: [],
+    },
+    methods: {
     },
     mounted: function() {
-      alert('funziona');
+      
     }
   }
-);
+)

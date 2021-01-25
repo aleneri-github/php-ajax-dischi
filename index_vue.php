@@ -16,7 +16,7 @@
     <title>Dischi Versione Vue</title>
   </head>
   <body>
-    <div id="app">
+    <div id="root">
       <header>
         <i class="fab fa-spotify"></i>
       </header>
