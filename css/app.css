@@ -37,7 +37,6 @@ main {
   cursor: pointer;
   background-color: #171717;
   border-radius: 2%;
-  transition: all 3s ease;
 }
 .disc-box h2 {
   font-family: "Noto Sans SC", sans-serif;

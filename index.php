@@ -34,8 +34,7 @@
             </div>
           </div>
         <?php } ?>
-      </main>
-      <script src="js/script.js" charset="utf-8"></script>
+      </main>      
     </div>
   </body>
 </html>
