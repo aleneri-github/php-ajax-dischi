@@ -16,12 +16,14 @@
     <title>Dischi Versione Vue</title>
   </head>
   <body>
-    <header>
-      <i class="fab fa-spotify"></i>
-    </header>
-    <main>
+    <div id="app">
+      <header>
+        <i class="fab fa-spotify"></i>
+      </header>
+      <main>
 
-    </main>
-    <script src="js/app.js" charset="utf-8"></script>
+      </main>
+      <script src="js/app.js" charset="utf-8"></script>
+    </div>
   </body>
 </html>
