@@ -10,7 +10,15 @@ var root = new Vue(
     methods: {
     },
     mounted: function() {
-      
+      const self = this;
+      axios
+        .get("server.php")
+        .then(function(response) {
+        self.discs = response.data;
+        console.log(response);
+
+        }
+      );
     }
   }
 )
